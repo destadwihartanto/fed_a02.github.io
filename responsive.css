@@ -15,6 +15,12 @@
   .menu-icon {
     display: block;
   }
+  footer{
+    height:1000px;
+  }
+  .row{
+    flex-direction: column;
+  }
 }
 
 /* Untuk Smartphone */
@@ -91,7 +97,26 @@
     width: 100%;
   }
 
-  .facebook {
-    margin-bottom: 10px;
+  footer{
+    height: 100%;
+  }
+  .row{
+    display:none;
+  }
+  .footer-responsive{
+    text-align:center;
+    display:block;
+  }
+  .footer-responsive h4 {
+    display:block;
+  }
+  .footer-responsive .social-links-responsive a {
+
+    display:inline;
+    margin:0px auto;
+  }
+  .footer-responsive .social-links-responsive a:hover {
+    display:inline;
+    margin:0px auto;
   }
 }
